@@ -1,11 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:crack_tech_app/app/modules/home/controllers/home_controller.dart';
+import 'package:crack_tech_app/utils/network/connectionManagerController.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import '../../../../utils/app_colors.dart';
 import '../../../../utils/loaderWidget.dart';
-import '../../../../utils/network/connectionManagerController.dart';
-import '../controllers/home_controller.dart';
+
 
 class HomeView extends GetView<HomeController> {
   const HomeView({Key? key}) : super(key: key);

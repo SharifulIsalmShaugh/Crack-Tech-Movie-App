@@ -5,15 +5,15 @@ description: A interview task Flutter project.
 environment: 
   sdk: '>=2.17.0 <3.0.0'
 
-dependencies: 
-  cupertino_icons: ^1.0.2
-  get: 4.6.5
-  flutter_launcher_icons: ^0.11.0
-  dio: ^4.0.6
+dependencies:
+  cupertino_icons: ^1.0.2 #cupertino icon
+  get: 4.6.5 #state management
+  flutter_launcher_icons: ^0.11.0 #Icons
+  dio: ^4.0.6 #Data fetch
   cached_network_image: ^3.2.1 #network image
-  hive: ^2.2.3
-  path_provider: ^2.0.15
-  connectivity_plus: ^2.3.7
+  hive: ^2.2.3 #Cash data
+  path_provider: ^2.0.15 #path
+  connectivity_plus: ^2.3.7 #network
 
   flutter: 
     sdk: flutter
@@ -22,6 +22,8 @@ dev_dependencies:
   flutter_lints: ^2.0.0
   flutter_test: 
     sdk: flutter
+  test: ^1.16.8
+  mockito: ^5.0.0
 
 flutter_icons:
   android: "launcher_icon"
