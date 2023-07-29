@@ -117,7 +117,7 @@ class HomeView extends GetView<HomeController> {
                     },
                     child: Obx(() =>Container(
                       height: 157,
-                      margin: EdgeInsets.symmetric(vertical:8,horizontal: 16),
+                      margin: const EdgeInsets.symmetric(vertical:8,horizontal: 16),
                       decoration: BoxDecoration(
                         color: AppColors.primaryColor,
                         borderRadius: BorderRadius.circular(16.0),

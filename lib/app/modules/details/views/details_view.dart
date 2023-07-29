@@ -68,7 +68,7 @@ class DetailsView extends GetView<DetailsController> {
                     children: [
                       Container(
                         height: 40,
-                        margin: EdgeInsets.only(bottom: 16),
+                        margin: const EdgeInsets.only(bottom: 16),
                         child: ListView.builder(
                           shrinkWrap: false,
                           scrollDirection: Axis.horizontal,
