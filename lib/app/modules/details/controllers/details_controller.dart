@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 
 class DetailsController extends GetxController {
   final Rx<Movie> movieData = Movie().obs;
+
   @override
   void onInit() {
     super.onInit();
@@ -20,7 +21,7 @@ class DetailsController extends GetxController {
     super.onClose();
   }
 
-  argumentData(){
+  argumentData() {
     movieData.value = Get.arguments[Constants.MOVIE];
   }
 }
