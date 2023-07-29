@@ -12,6 +12,7 @@ dependencies:
   dio: ^4.0.6 #Data fetch
   cached_network_image: ^3.2.1 #network image
   hive: ^2.2.3 #Cash data
+  hive_flutter: ^1.1.0
   path_provider: ^2.0.15 #path
   connectivity_plus: ^2.3.7 #network
 
@@ -32,6 +33,19 @@ flutter_icons:
 
 flutter: 
   uses-material-design: true
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Black.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter-Light.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-SemiBold.ttf
+        - asset: assets/fonts/Inter-Thin.ttf
 
   assets:
     - assets/icons/

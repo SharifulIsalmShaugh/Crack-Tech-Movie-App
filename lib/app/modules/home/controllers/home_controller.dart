@@ -59,7 +59,7 @@ class HomeController extends GetxController {
 
   Future<MovieDataResponse?> movieDataCall() async {
     isLoading.value = true;
-    movieDataResponseApi().then((response) {
+    await Repo.movieDataResponseApi().then((response) {
       if(response != null) {
         movieData.value = response;
         selectedGenres(0, movieData.value.genres!.first);

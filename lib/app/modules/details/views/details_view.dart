@@ -79,10 +79,10 @@ class DetailsView extends GetView<DetailsController> {
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: AppColors.primaryColor,
-                                  borderRadius: BorderRadius.circular(15.0),
+                                  borderRadius: BorderRadius.circular(25.0),
                                   border: Border.all(
                                     color: Colors.black, // Border color
-                                    width: 1.0, // Border width
+                                    width: 0.3, // Border width
                                   ),
                                 ),
                                 child:Center(
@@ -129,9 +129,9 @@ class DetailsView extends GetView<DetailsController> {
                         padding: EdgeInsets.only(bottom:4.0),
                         child: Text("Director:",
                           style:  TextStyle(
-                              fontWeight: FontWeight.w400,
-                              color: Colors.grey,
-                              fontSize: 14),
+                              fontWeight: FontWeight.w600,
+                              color: AppColors.secondaryColor,
+                              fontSize: 16),
                           textAlign: TextAlign.start,
                         ),
                       ),
@@ -149,9 +149,9 @@ class DetailsView extends GetView<DetailsController> {
                         padding: EdgeInsets.only(bottom:4.0),
                         child: Text("Actors:",
                           style:  TextStyle(
-                              fontWeight: FontWeight.w400,
-                              color: Colors.grey,
-                              fontSize: 14),
+                              fontWeight: FontWeight.w600,
+                              color: AppColors.secondaryColor,
+                              fontSize: 16),
                           textAlign: TextAlign.start,
                         ),
                       ),
@@ -169,9 +169,9 @@ class DetailsView extends GetView<DetailsController> {
                         padding: EdgeInsets.only(bottom:4.0),
                         child: Text("Plot:",
                           style:  TextStyle(
-                              fontWeight: FontWeight.w400,
-                              color: Colors.grey,
-                              fontSize: 14),
+                              fontWeight: FontWeight.w600,
+                              color: AppColors.secondaryColor,
+                              fontSize: 16),
                           textAlign: TextAlign.start,
                         ),
                       ),
