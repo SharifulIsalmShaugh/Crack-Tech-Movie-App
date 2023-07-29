@@ -79,3 +79,22 @@ dependencies:
 6. Cached API responses using Flutter Hive and GetX, which improves the app's loading speed and reduces data consumption.
 
 ```NB: Please be aware that there is a known issue with Flutter Hive that may affect automated testing. The issue is related to the usage of Hive databases in Flutter tests. Since tests run in a different environment, the default location for Hive's database files may not be accessible during automated testing.```
+
+# Screens
+
+### Splsh Screen
+![Splsh Screen](https://github.com/SharifulIsalmShaugh/Crack-Tech-Movie-App/blob/dev/assets/screens/Splash.png)
+
+### Loading Screen
+![Loading Screen](https://github.com/SharifulIsalmShaugh/Crack-Tech-Movie-App/blob/dev/assets/screens/Loading.png)
+
+### No-Internet Screen
+![No-Internet Screen](https://github.com/SharifulIsalmShaugh/Crack-Tech-Movie-App/blob/dev/assets/screens/No-Internet.png)
+
+### Home Screen
+![Home Screen](https://github.com/SharifulIsalmShaugh/Crack-Tech-Movie-App/blob/dev/assets/screens/Home.png)
+
+### Details Screen
+![Details Screen](https://github.com/SharifulIsalmShaugh/Crack-Tech-Movie-App/blob/dev/assets/screens/Details.png)
+
+
